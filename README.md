@@ -17,11 +17,12 @@ A estrutura ficou definida da seguinte forma:
     - PedidoPizza
     - PedidoHamburguer
     - PedidoJapones
-- Creator: Restaurante (classe abstrata que define o método criaPedido()).
+- Creator: Restaurante (classe abstrata que define o método criaPedido() e novoPedido()).
 - ConcreteCreator:
     - Pizzaria (fábrica que cria PedidoPizza).
     - Hamburgueria (fábrica que cria PedidoHamburguer).
     - RestauranteJapones (fábrica que cria PedidoJapones).
+- Factory de Creators: RestauranteFactory (classe estática que, dado um String com o tipo, retorna a instância do Restaurante apropriado).
 
 ### Estrutura do Projeto
 O projeto foi organizado utilizando a estrutura padrão do Maven.
