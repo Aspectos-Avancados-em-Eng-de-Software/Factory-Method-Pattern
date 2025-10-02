@@ -47,6 +47,8 @@ O projeto foi organizado utilizando a estrutura padrão do Maven.
         └── RestauranteFactoryTest.java
 ```
 
+### Diagrama 
+![Diagrama Factory Method](diagrama_factory_method_pattern.png)
 
 ### Tecnologias Utilizadas
 - Java 11: Linguagem de programação principal.
